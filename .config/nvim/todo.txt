@@ -1,0 +1,8 @@
+TODO:
+Format on save
+    - Fix for Python (Implement mypy)
+Debugger w/ DAP
+Better interaction between buffers and nvim-tree
+Stop auto commenting
+Help menu on bottom
+Flutter
