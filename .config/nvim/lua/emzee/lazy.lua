@@ -128,17 +128,6 @@ require("lazy").setup({
     end
   },
   {
-    'numToStr/Comment.nvim',
-    keys = {
-      { "gc", mode = { "n", "v" } },
-      { "gb", mode = { "n", "v" } },
-    },
-    lazy = true,
-    config = function()
-      require("Comment").setup()
-    end,
-  },
-  {
     'lervag/vimtex',
     event = "VeryLazy",
     config = function()
